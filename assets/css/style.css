@@ -52,14 +52,26 @@ p {
     font-size: 16px;
 }
 
+/* commented out image to add image through HTML in order to add alt attributed */
+/* added overflow property */
 .hero {
+    position: relative;
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+     /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     background-size: cover;
     background-position: center;
-    alt: this is a photo of a team gathering around a desk in a business meeting room;
+    overflow: hidden; /* Hide any overflow */
+}
+/*  in order to maintain aspect ratio of image: added class for image so "hero" class defines a container and "hero img" defines how the image sits in that container */
+.hero img {
+    width: 100%; /* Allow the width to fill the container */
+    height: auto; /* Allow the height to adjust automatically */
+    position: absolute;
+    top: 50%; /* Position the top of the image at the center of the container */
+    left: 50%; /* Position the left of the image at the center of the container */
+    transform: translate(-50%, -50%); /* Center the image within the container */
 }
 
 .float-left {
