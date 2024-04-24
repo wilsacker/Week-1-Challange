@@ -8,23 +8,25 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+/* Removed class element for all "header" elements so that they correspond with new semantic element "header" */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* changed all "header div" semantics to match the semantic "header nav" */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -57,6 +59,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    alt: this is a photo of a team gathering around a desk in a business meeting room;
 }
 
 .float-left {
@@ -75,7 +78,8 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+/* changed class of "benefits" to new corresponding semantic element "aside" */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -188,13 +192,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* removed class element "footer" so that footer corresponds to the new semantic element "footer" */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
