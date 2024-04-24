@@ -1,4 +1,5 @@
 # Challenge 1 - Code Refactor
+Week 1 - Columbia Boot Camp
 
 ## Description:
 
@@ -17,3 +18,21 @@
 
 ## Photos
 
+![Screenshot#1](https://github.com/wilsacker/Week-1-Challange/blob/main/assets/images/Screenshot%202024-04-23%20at%2022.22.37.png)
+![Screenshot#2](https://github.com/wilsacker/Week-1-Challange/blob/main/assets/images/Screenshot%202024-04-23%20at%2022.22.46.png)
+![Screenshot#3](https://github.com/wilsacker/Week-1-Challange/blob/main/assets/images/Screenshot%202024-04-23%20at%2022.22.55.png)
+
+## Link to deployed website: https://wilsacker.github.io/Week-1-Challange/
+
+
+## GitHub Repo link: https://github.com/wilsacker/Week-1-Challange/tree/main
+
+## Credits
+
+Created by William Acker. Conducted searches in Google.com, https://www.w3schools.com/ and utilized ChatGPT, https://chat.openai.com/ to understand concepts.
+
+https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide was used to create the README for this project
+
+## License
+
+© 2024 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
