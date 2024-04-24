@@ -64,6 +64,7 @@ p {
     background-position: center;
     overflow: hidden; /* Hide any overflow */
 }
+
 /*  in order to maintain aspect ratio of image: added class for image so "hero" class defines a container and "hero img" defines how the image sits in that container */
 .hero img {
     width: 100%; /* Allow the width to fill the container */
@@ -212,6 +213,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/* changed header attribute number to correspond with the new header attribute number in the footer of html */
+footer h4 {
     font-size: 20px;
 }
